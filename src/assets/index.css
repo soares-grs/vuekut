@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../assets/fonts/SFProDisplay-Regular.ttf') format('truetype');
+  }
+  
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
