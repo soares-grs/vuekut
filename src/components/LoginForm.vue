@@ -1,6 +1,6 @@
 <template>
     <div class="flex justify-center items-center mt-4">
-        <div class="h-[500px] center w-[320px] bg-white rounded-xl shadow-md">
+        <div class="h-[500px] md:h-[600px] center w-[320px] bg-white rounded-xl shadow-md">
             <div class="flex flex-col items-center gap-3 mt-6 ">
                 <img class="h-7 w-7" src="../assets/imgs/circle-orkut.png" alt="O do Orkut">
                 <h1 class="text-[#ED2590] font-semibold text-xl">Acesse o Orkut</h1>
