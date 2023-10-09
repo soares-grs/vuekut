@@ -1,10 +1,10 @@
 <template>
     <HeaderLogin />
-    <div class="bg-[#D9E6F7]">
+    <div class="h-[90vh] sm:h-[80vh] bg-[#D9E6F7]">
         <div class="flex flex-col justify-center h-[80vh]">
             <div class="md:flex md:gap-4 md:justify-center md:items-center">
                 <LoginBackGround class="hidden md:block" />
-                <LoginFormVue />
+                <LoginFormVue class="sm:h-full"/>
             </div>
         </div>
     </div>
