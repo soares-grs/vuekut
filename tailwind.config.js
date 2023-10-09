@@ -7,7 +7,11 @@ module.exports = {
   theme: {
     colors: {
       "orkut-pink": "#ED2590",
-      "white": "#FFFFFF"
+      "orkut-pink-hover": "#c41c76",
+      "white": "#FFFFFF",
+      "input-text": "#484848",
+      "soft-gray": "#868686",
+      "base-gray": "#EFF3F8"
     },
     extend: {
       fontFamily: {

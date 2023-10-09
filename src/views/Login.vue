@@ -1,19 +1,19 @@
 <template>
+    <HeaderLogin />
     <div class="bg-[#D9E6F7]">
-        <HeaderLogin />
         <div class="flex flex-col justify-center h-[80vh]">
             <div class="md:flex md:gap-4 md:justify-center md:items-center">
                 <LoginBackGround class="hidden md:block" />
                 <LoginFormVue />
             </div>
-            <FooterLogin />
         </div>
     </div>
+    <FooterLogin />
 </template>
 
 <script setup>
-import HeaderLogin from '../components/HeaderLogin.vue';
-import LoginFormVue from '../components/LoginForm.vue';
-import FooterLogin from '../components/FooterLogin.vue';
-import LoginBackGround from '../components/LoginBackGround.vue';
+import HeaderLogin from '../components/Login/HeaderLogin.vue';
+import LoginFormVue from '../components/Login/LoginForm.vue';
+import FooterLogin from '../components/Login/FooterLogin.vue';
+import LoginBackGround from '../components/Login/LoginBackGround.vue';
 </script>
